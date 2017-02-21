@@ -1,0 +1,16 @@
+{
+  "name": "data-structures-javascript",
+  "version": "1.0.0",
+  "description": "Implementation of various data structures in Javascript",
+  "main": "",
+  "scripts": {
+    "test": "mocha -G --recursive tests/*.js"
+  },
+  "author": "Aqib Shah",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0"
+  }
+}
