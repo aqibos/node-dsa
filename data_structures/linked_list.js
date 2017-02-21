@@ -22,7 +22,7 @@ function LinkedList() {
     if (index < 0 || index > _size) throw new Error('Index is out of bounds');
 
     const newNode = Node(data);
-    if (index === 0) { newNode.next = _head; _head = newNode; return; }
+    if (index === 0) { newNode.next = _head; _head = newNode; _size++; return; }
 
     let n = _head; let count = 0;
     while (count !== index - 1) { n = n.next; count++; }

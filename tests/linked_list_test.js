@@ -30,6 +30,7 @@ describe('LinkedList Test', function() {
       list.insert(1);
       list.insertAt(0, 2);
       assert.equal(list.toArray()[0], 2);
+      assert.equal(list.size(), 2);
     });
 
     it('inserts node as tail', function() {
